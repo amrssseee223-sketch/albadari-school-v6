@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة البداري العقال البحري الشهيد ناصر الثانوية</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Cairo -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md text-white shadow-lg border-b border-slate-800">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3 space-x-reverse">
+                <i class="fa-solid fa-graduation-cap text-amber-400 text-3xl"></i>
+                <div>
+                    <h1 class="font-black text-lg md:text-xl leading-tight text-amber-400">مدرسة البداري العقال البحري</h1>
+                    <p class="text-xs text-slate-300">الشهيد ناصر الثانوية</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 space-x-reverse font-semibold text-sm">
+                <a href="#school" class="hover:text-amber-400 transition-colors">مكان المدرسة</a>
+                <a href="#teachers" class="hover:text-amber-400 transition-colors">المدرسين</a>
+                <a href="#curriculum" class="hover:text-amber-400 transition-colors">المناهج الدراسية</a>
+            </nav>
+            <a href="#teachers" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-4 py-2 rounded-lg text-sm transition-all shadow-md">
+                مشاهدة المعلمين
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white py-20 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-cover bg-center" style="background-image: url('WhatsApp Image 2026-10-23 at 9.34.40 AM.jpeg');"></div>
+        <div class="container mx-auto relative z-10 text-center max-w-4xl">
+            <span class="inline-block bg-amber-500/20 text-amber-300 text-xs md:text-sm font-bold px-4 py-1.5 rounded-full border border-amber-500/30 mb-4">
+                المنصة التعليمية الرسمية
+            </span>
+            <h2 class="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
+                مدرسة البداري العقال البحري الشهيد ناصر الثانوية
+            </h2>
+            <p class="text-slate-300 text-base md:text-lg mb-8 leading-relaxed max-w-2xl mx-auto">
+                مرحباً بكم في منصتنا الرقمية الشاملة للتعرف على المدرسة، كادرنا التعليمي المتميز، والمناهج الدراسية المقررة لكافة المراحل الثانوية.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#curriculum" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3 rounded-xl transition-all shadow-lg flex items-center gap-2">
+                    <i class="fa-solid fa-book-open"></i> استعراض المناهج
+                </a>
+                <a href="#teachers" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-xl border border-slate-700 transition-all flex items-center gap-2">
+                    <i class="fa-solid fa-circle-play"></i> فيديوهات المدرسين
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 1: School Location -->
+    <section id="school" class="py-16 px-4 container mx-auto">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl md:text-3xl font-extrabold text-slate-900 mb-2">القسم الأول: مكان المدرسة</h3>
+            <p class="text-slate-600">تعرف على مبنى المدرسة وبيئتها التعليمية</p>
+            <div class="w-16 h-1 bg-amber-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+            <div class="space-y-4">
+                <h4 class="text-xl font-bold text-slate-900 border-r-4 border-amber-500 pr-3">مبنى المدرسة والساحة الرياضية</h4>
+                <p class="text-slate-600 leading-relaxed">
+                    تتميز مدرسة البداري العقال البحري الشهيد ناصر الثانوية بمبناها المدرسي الحديث والمتكامل، والذي يضم ساحة رياضية واسعة وملاعب مجهزة، إلى جانب الفصول الدراسية والمقرات التعليمية التي توفر بيئة مشجعة للطلاب.
+                </p>
+                <div class="grid grid-cols-2 gap-4 pt-4">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+                        <i class="fa-solid fa-school text-amber-500 text-2xl"></i>
+                        <div>
+                            <span class="block font-bold text-slate-900">فصول مجهزة</span>
+                            <span class="text-xs text-slate-500">بيئة تعليمية ممتازة</span>
+                        </div>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-center gap-3">
+                        <i class="fa-solid fa-basketball text-amber-500 text-2xl"></i>
+                        <div>
+                            <span class="block font-bold text-slate-900">ملاعب وساحات</span>
+                            <span class="text-xs text-slate-500">للأنشطة الرياضية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-md border border-slate-200">
+                <img src="image.jpeg" alt="مدرسة البداري العقال البحري الشهيد ناصر الثانوية" class="w-full h-80 object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Teachers -->
+    <section id="teachers" class="py-16 px-4 bg-slate-900 text-white">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-2xl md:text-3xl font-extrabold text-amber-400 mb-2">القسم الثاني: الفيديوهات التعريفية للمدرسين</h3>
+                <p class="text-slate-400">تعرف على معلمي المدرسة التسعة في مختلف التخصصات</p>
+                <div class="w-16 h-1 bg-amber-500 mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Teacher 1 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">التربية الموسيقية</span>
+                            <i class="fa-solid fa-music text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر موسيقى</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم التربية الموسيقية والأنشطة الفنية</p>
+                    </div>
+                    <button onclick="playVideo('مستر موسيقى')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 2 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">التربية الرياضية</span>
+                            <i class="fa-solid fa-dumbbell text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر رياضة</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم التربية الرياضية واللياقة البدنية</p>
+                    </div>
+                    <button onclick="playVideo('مستر رياضة')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 3 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">التكنولوجيا</span>
+                            <i class="fa-solid fa-code text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر برمجة</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم الحاسب الآلي وتكنولوجيا المعلومات</p>
+                    </div>
+                    <button onclick="playVideo('مستر برمجة')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 4 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">اللغة الإنجليزية</span>
+                            <i class="fa-solid fa-language text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر إنجليزي</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم اللغة الإنجليزية وآدابها</p>
+                    </div>
+                    <button onclick="playVideo('مستر إنجليزي')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 5 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">اللغة الفرنسية</span>
+                            <i class="fa-solid fa-earth-europe text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر فرنساوي</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم اللغة الفرنسية واللغات الثانية</p>
+                    </div>
+                    <button onclick="playVideo('مستر فرنساوي')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 6 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">علم النفس</span>
+                            <i class="fa-solid fa-brain text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر علم نفس</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم علم النفس والاجتماع والفلسفة</p>
+                    </div>
+                    <button onclick="playVideo('مستر علم نفس')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 7 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">اللغة العربية</span>
+                            <i class="fa-solid fa-book-bookmark text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر عربي</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم اللغة العربية والعلوم الإسلامية</p>
+                    </div>
+                    <button onclick="playVideo('مستر عربي')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 8 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">الرياضيات</span>
+                            <i class="fa-solid fa-calculator text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر رياضيات</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم الرياضيات والجبر والهندسة</p>
+                    </div>
+                    <button onclick="playVideo('مستر رياضيات')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+
+                <!-- Teacher 9 -->
+                <div class="bg-slate-800 rounded-xl p-5 border border-slate-700 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="bg-amber-500/20 text-amber-400 text-xs font-bold px-3 py-1 rounded-full border border-amber-500/30">التاريخ</span>
+                            <i class="fa-solid fa-landmark text-amber-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-lg font-bold mb-1">مستر تاريخ</h4>
+                        <p class="text-slate-400 text-xs mb-4">معلم التاريخ والدراسات الاجتماعية</p>
+                    </div>
+                    <button onclick="playVideo('مستر تاريخ', 'vedio.mp4')" class="w-full bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-bold py-2.5 rounded-lg transition-all text-sm flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-play"></i> مشاهدة الفيديو التعريفي
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Curriculum by Grades -->
+    <section id="curriculum" class="py-16 px-4 container mx-auto">
+        <div class="text-center mb-10">
+            <h3 class="text-2xl md:text-3xl font-extrabold text-slate-900 mb-2">القسم الثالث: المناهج الدراسية المقررة</h3>
+            <p class="text-slate-600">اختر الصف الدراسي لاستعراض المواد والمناهج المقررة</p>
+            <div class="w-16 h-1 bg-amber-500 mx-auto mt-3 rounded-full"></div>
+        </div>
+
+        <!-- Grade Tabs Filter -->
+        <div class="flex flex-wrap justify-center gap-3 mb-10">
+            <button onclick="switchGrade('grade1')" id="tab-grade1" class="grade-tab bg-amber-500 text-slate-950 font-bold px-6 py-3 rounded-xl shadow-md transition-all text-sm md:text-base flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap"></i> الصف الأول الثانوي
+            </button>
+            <button onclick="switchGrade('grade2')" id="tab-grade2" class="grade-tab bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 font-bold px-6 py-3 rounded-xl transition-all text-sm md:text-base flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap"></i> الصف الثاني الثانوي
+            </button>
+            <button onclick="switchGrade('grade3')" id="tab-grade3" class="grade-tab bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 font-bold px-6 py-3 rounded-xl transition-all text-sm md:text-base flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap"></i> الصف الثالث الثانوي
+            </button>
+        </div>
+
+        <!-- Content Grade 1 -->
+        <div id="content-grade1" class="grade-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-book ml-2"></i>منهج اللغة العربية</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الأول الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">النحو، البلاغة، الأدب العصر الجاهلي والإسلامي، القراءة والنصوص المقررة.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-calculator ml-2"></i>منهج الرياضيات</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الأول الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">الجبر وحساب المثلثات، الهندسة التحليلية والمستوية basics.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-language ml-2"></i>منهج اللغة الإنجليزية</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الأول الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">القواعد الأساسية، مفردات الوحدات، القصة المقررة، مهارات الكتابة.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-earth-europe ml-2"></i>منهج اللغة الفرنسية</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الأول الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">أساسيات اللغة الفرنسية، التعارف، القواعد الأساسية والمحادثة.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-landmark ml-2"></i>منهج التاريخ</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الأول الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">حضارة مصر القديمة وحضارات الشرق القديم واليونان والرومان.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-brain ml-2"></i>منهج مبادئ التفكير الفلسفي</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الأول الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">مبادئ التفكير الفلسفي والتفكير العلمي وعلم النفس التمهيدي.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+        </div>
+
+        <!-- Content Grade 2 -->
+        <div id="content-grade2" class="grade-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-book ml-2"></i>منهج اللغة العربية</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثاني الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">الأدب العباسي والحديث، تعمق النحو والبلاغة، وقضايا قراءة معاصرة.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-calculator ml-2"></i>منهج الرياضيات</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثاني الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">التفاضل والتكامل، الجبر المتطور، وتطبيقات الرياضيات الميكانيكية.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-brain ml-2"></i>منهج علم النفس والاجتماع</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثاني الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">أساسيات علم النفس، دوافع السلوك، وعلم الاجتماع والبناء الاجتماعي.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-code ml-2"></i>منهج تكنولوجيا البرمجة</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثاني الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">أساسيات إنشاء المواقع، لغات البرمجة HTML/CSS وتطبيقات حاسوبية.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+        </div>
+
+        <!-- Content Grade 3 -->
+        <div id="content-grade3" class="grade-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm border-r-4 border-r-amber-500">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-book ml-2"></i>منهج العربي - الثانوية العامة</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثالث الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">المنهج الشامل: النحو الكامل، مدارس الأدب، البلاغة المتقدمة، وقصة الأيام.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm border-r-4 border-r-amber-500">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-calculator ml-2"></i>الرياضيات البحثة والتطبيقية</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثالث الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">تفاصيل التفاضل والتكامل، الهندسة الفراغية، الاستاتيكا والديناميكا.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm border-r-4 border-r-amber-500">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-brain ml-2"></i>علم النفس والاجتماع والمنطق</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثالث الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">مناهج الذكاءات والتعلم، المنطق الرمزي والتفكير الاستنباطي.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm border-r-4 border-r-amber-500">
+                <h5 class="font-bold text-amber-600 text-lg mb-2"><i class="fa-solid fa-landmark ml-2"></i>تاريخ مصر الحديث والفرعوني</h5>
+                <p class="text-xs text-slate-500 mb-3">الصف الثالث الثانوي</p>
+                <p class="text-sm text-slate-600 leading-relaxed mb-4">تاريخ مصر الحديث والمعاصر والتغيرات السياسية والاجتماعية.</p>
+                <button class="text-amber-600 font-bold text-xs hover:underline">تحميل دليل المنهج (PDF)</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-8 px-4 border-t border-slate-800 text-center text-xs md:text-sm">
+        <p>جميع الحقوق محفوظة © 2026 - مدرسة البداري العقال البحري الشهيد ناصر الثانوية</p>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-xl w-full p-6 relative text-white">
+            <button onclick="closeVideo()" class="absolute top-4 left-4 text-slate-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h4 id="modalTitle" class="text-xl font-bold mb-4 text-amber-400"></h4>
+            <div class="aspect-video bg-slate-950 rounded-xl flex items-center justify-center border border-slate-800 mb-4">
+                <div class="text-center p-6">
+                    <i class="fa-solid fa-circle-play text-5xl text-amber-500 mb-3 animate-pulse"></i>
+                    <p class="text-sm text-slate-300">معاينة الفيديو التعريفي الخاص بالمدرس</p>
+                    <span class="text-xs text-slate-500 mt-2 block">(يمكنك ربط هذا المشغل برابط فيديو من يوتيوب مستقبلاً)</span>
+                </div>
+            </div>
+            <button onclick="closeVideo()" class="w-full bg-slate-800 hover:bg-slate-700 py-2 rounded-lg font-semibold text-sm">إغلاق</button>
+        </div>
+    </div>
+
+    <!-- Script for Grade Filtering and Video Modal -->
+    <script>
+        function switchGrade(gradeId) {
+            // Hide all grade contents
+            const contents = document.querySelectorAll('.grade-content');
+            contents.forEach(content => content.classList.add('hidden'));
+
+            // Reset tab styles
+            const tabs = document.querySelectorAll('.grade-tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('bg-amber-500', 'text-slate-950', 'shadow-md');
+                tab.classList.add('bg-white', 'text-slate-700');
+            });
+
+            // Show target content
+            document.getElementById('content-' + gradeId).classList.remove('hidden');
+
+            // Active tab style
+            const activeTab = document.getElementById('tab-' + gradeId);
+            activeTab.classList.remove('bg-white', 'text-slate-700');
+            activeTab.classList.add('bg-amber-500', 'text-slate-950', 'shadow-md');
+        }
+
+        function playVideo(teacherName) {
+            document.getElementById('modalTitle').innerText = 'الفيديو التعريفي - ' + teacherName;
+            document.getElementById('videoModal').classList.remove('hidden');
+            document.getElementById('videoModal').classList.add('flex');
+        }
+
+        function closeVideo() {
+            document.getElementById('videoModal').classList.add('hidden');
+            document.getElementById('videoModal').classList.remove('flex');
+        }
+    </script>
+</body>
+</html>
